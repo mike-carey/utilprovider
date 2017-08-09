@@ -7,4 +7,7 @@
 
 'use strict'
 
-exports = module.exports = {}
+exports = module.exports = {
+    options: require('./lib/options'),
+    Meta: require('./lib/Meta')
+}

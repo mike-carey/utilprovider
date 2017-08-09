@@ -1,15 +1,24 @@
 {
-  "name": "databuilder",
-  "version": "1.0.0",
+  "name": "utilprovider",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/*.test.js"
   },
   "author": "Mike Carey <michael.r.carey@att.net>",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/mike-carey/databuilder.git"
+    "type": "git",
+    "url": "https://github.com/mike-carey/utilprovider.git"
   },
-  "license": "Apache-2.0"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "debug": "^3.0.0",
+    "underscore": "^1.8.3"
+  }
 }
